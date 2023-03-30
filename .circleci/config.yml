@@ -78,4 +78,3 @@ workflows:
           executor: gen2_medium
       - build:
           executor: gen2_medium
-          context: [cera-vault-oidc-prod]

@@ -61,6 +61,7 @@ jobs:
       - ruby/install-deps
       - run: bundle exec fastlane build
 
+
 workflows:
   m1_large_workflow:
     jobs:
